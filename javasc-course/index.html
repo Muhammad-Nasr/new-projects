@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+    <P>Hello world</P>
+    
+    <!---  Use gavascript 
+    <p>My name is <span id="person">Muhammad</span></p>
+    <script type="text/javascript">  
+        alert('Here I am')
+        document.write("<p>Java in the browser</p>")
+    </script>
+     <script type="text/javascript">
+        name = document.getElementById('person').innerHTML
+        window.console && console.log('Name='+ name);
+        alert('Here I am' + name)
+        document.getElementById('person').innerHTML = 'Muhammad nasr';
+        window.console && console.dir(document.getElementById('person'));
+    </script>
+     -->
+
+    <!--- use on click
+
+    <p>
+        <a href="#"
+         onclick="document.getElementById('job').innerHTML='Good Programmer';return false">Programmer</a>
+    </p>
+    <p>
+        <a href="#"
+         onclick="document.getElementById('job').innerHTML='Good Entreprenur';return false">Entreprenur</a>
+    </p>
+    Hello I am <b><span id="job">a Student</span></b> now.
+-->
+
+<!-- Use Jquery -->
+<!-- call function whend the page downloaded
+<script type="text/javascript">
+    $(document).ready(function(){
+        alert("hello Jquery world!");
+        window.console && console.log('hello jquery..');
+    })
+</script>
+-->
+
+<!-- change css by using jquery-->
+<p id="para">how are you my friend <span id="span" style="display:none ;">Ahmad Riyad</span></p>
+<a href="#" onclick="$('#span').toggle(); return false;">Toggle</a>
+<a href="#" onclick="$('#para').css('background-color', 'red'); return false;">Red</a>
+<a href="#" onclick="$('#para').css('background-color', 'green'); return false;">Green</a>
+
+
+</body>
+</html>
